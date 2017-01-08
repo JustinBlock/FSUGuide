@@ -10,9 +10,14 @@ This app requires a Parse backend in order to work. In AppDelegate.m find
 
 
         configuration.applicationId = @"INSERT-APPLICATION-ID";
-        åç
+        
         configuration.server = @"INSER-SERVER-URL";
         
         configuration.clientKey = @"INSERT-CLIENT-KEY";
 
 and set the corresponding values. There are many websites out there to get free developer Parse hosting.
+
+## Notes
+This repo has been re-created from scratch due to some issues with bfg/git filter branch on my machine. If there is enough request I can look further into fixing the issues.
+
+If using this project publicly please re-create image assets as they require licenses/attribution from their creators for commercial use.
