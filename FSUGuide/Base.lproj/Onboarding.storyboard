@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vlD-4L-VEs">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--TabBarViewController-->
+        <scene sceneID="hPU-eE-LXm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="TabBarViewController" id="zPy-sM-Ejr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtS-kE-PNd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-232" y="1142"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="76R-Br-m27">
+            <objects>
+                <viewController storyboardIdentifier="StepOne" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vlD-4L-VEs" customClass="RootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M10-Qq-dgc"/>
+                        <viewControllerLayoutGuide type="bottom" id="3eQ-zk-jIT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fce-yH-xpe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dY-o2-Fdp">
+                                <rect key="frame" x="184" y="193" width="233" height="83"/>
+                                <color key="backgroundColor" red="0.97010606527328491" green="0.045727632939815521" blue="0.13052076101303101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="233" id="f8B-S3-dd5"/>
+                                    <constraint firstAttribute="height" constant="83" id="zgx-RG-YJb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="NEW STUDENT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="newStudentButttonPressed:" destination="vlD-4L-VEs" eventType="touchUpInside" id="rTU-Dm-noM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ijf-st-i2S">
+                                <rect key="frame" x="184" y="323" width="233" height="83"/>
+                                <color key="backgroundColor" red="0.96223872900009155" green="0.075043536722660065" blue="0.099520839750766754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="7IR-rs-kTY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="EXISTING STUDENT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="existingStudentButtonPressed:" destination="vlD-4L-VEs" eventType="touchUpInside" id="bpK-Fa-vgW"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appLogo" translatesAutoresizingMaskIntoConstraints="NO" id="VZO-a7-PGw">
+                                <rect key="frame" x="161" y="88" width="279" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="Cl5-WK-u1n"/>
+                                    <constraint firstAttribute="width" constant="279" id="fX5-7S-qUp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ijf-st-i2S" firstAttribute="top" secondItem="9dY-o2-Fdp" secondAttribute="bottom" constant="47" id="076-HB-YXR"/>
+                            <constraint firstItem="3eQ-zk-jIT" firstAttribute="top" secondItem="Ijf-st-i2S" secondAttribute="bottom" constant="194" id="0qk-1o-SlM"/>
+                            <constraint firstItem="VZO-a7-PGw" firstAttribute="top" secondItem="M10-Qq-dgc" secondAttribute="bottom" constant="68" id="2I3-8u-yIm"/>
+                            <constraint firstItem="9dY-o2-Fdp" firstAttribute="leading" secondItem="Ijf-st-i2S" secondAttribute="leading" id="2SE-pu-mIx"/>
+                            <constraint firstItem="VZO-a7-PGw" firstAttribute="centerX" secondItem="9dY-o2-Fdp" secondAttribute="centerX" id="6IJ-a0-8Vf"/>
+                            <constraint firstItem="VZO-a7-PGw" firstAttribute="centerX" secondItem="fce-yH-xpe" secondAttribute="centerX" id="bsg-o8-rQb"/>
+                            <constraint firstItem="9dY-o2-Fdp" firstAttribute="trailing" secondItem="Ijf-st-i2S" secondAttribute="trailing" id="ijH-bT-9Xr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="brandNewStudentButton" destination="9dY-o2-Fdp" id="jcQ-yA-lVl"/>
+                        <outlet property="existingStudentButton" destination="Ijf-st-i2S" id="dti-fy-4Py"/>
+                        <segue destination="zPy-sM-Ejr" kind="showDetail" identifier="segueToHomePage" animates="NO" action="showViewController:sender:" id="0Oy-pt-2V5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hAE-HB-TRl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-232" y="678"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appLogo" width="231" height="41"/>
+    </resources>
+</document>

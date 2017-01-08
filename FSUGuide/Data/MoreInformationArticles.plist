@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>FSU Contact Information</string>
+		<key>imageName</key>
+		<string>fsuContactBanner</string>
+		<key>textBody</key>
+		<string>FSU Customer Service 
+Phone: 1-(850)-644-2525
+
+Office of Admissions 
+Address: Florida State University
+ Office of Admissions
+ A2500 University Center
+ 282 Champions Way
+ Tallahassee FL 32306-2400
+Phone: 850-644-6200
+Fax: 850-644-0197
+Email: admissions@fsu.edu
+
+Seminole Dining
+Address: Seminole Dining Membership Office
+ 104 N Woodward Ave
+ Tallahassee, Florida 32306
+Phone: 850-644-3663 
+Fax: 850-644-4999   
+Email: seminoledining@fsu.edu
+
+University Registrar
+Address: Office of the University Registrar
+Florida State University
+Room A3900 UCA
+282 Champions Way
+PO Box 3062400
+Tallahassee, FL 32306-2400
+Phone: 850-644-1050</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FSU Bookstore</string>
+		<key>imageName</key>
+		<string>fsuBookstoreBanner</string>
+		<key>textBody</key>
+		<string>The FSU bookstore carries all the text books and class resources you&apos;ll need for your classes here at FSU. They have a wide range of official FSU merchandise and everything you need for a garnet &amp; gold tailgate. The bookstore also contains an on-site apple store as well as a repair center for your personal tech support needs.
+
+http://www.bkstr.com/floridastatestore/home</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Places to Eat</string>
+		<key>imageName</key>
+		<string>placesToEatBanner</string>
+		<key>textBody</key>
+		<string>If you&apos;re looking to set up a meal plan for easy, no hassle food on campus Seminole Dining is your one stop shop.
+http://seminoledining.campusdish.com/
+
+Looking for the best food on a budget? Look no further.
+https://www.tripadvisor.com/Restaurants-g34675-Tallahassee_Florida.html#MAINWRAP
+
+If it&apos;s late night and your on a budget Guthries is a Tallahassee classic.
+http://www.guthrieschicken.com/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FSU Athletics</string>
+		<key>imageName</key>
+		<string>fsuAthleticsBanner</string>
+		<key>textBody</key>
+		<string>More than just football the Seminoles excel in many sports. Show your support by attending events and wearing your colors. With a schedule for all the events and ticket sales the FSU Athletics website has everything you need to bleed garnet and gold!
+
+Check it out: http://www.seminoles.com/</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FSU Academic Calendar</string>
+		<key>imageName</key>
+		<string>fsuCalendarBanner</string>
+		<key>textBody</key>
+		<string>Start planning your vacations ahead of time. Check the academic calendar for holidays and school wide deadlines. If you want to you can even syncronize the academic calendar with your own through Microsoft Outlook.
+
+http://calendar.fsu.edu/Lists/Academics/calendar.aspx</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FSU Map</string>
+		<key>imageName</key>
+		<string>fsuMapBanner</string>
+		<key>textBody</key>
+		<string>Lost? Use the interactive campus map to find where you&apos;re headed. It includes all the important stops around campus and the 3 letter building codes for any you don&apos;t recognize on your schedule. A must visit site for any new freshman.
+
+http://campus.map.fsu.edu/index.aspx</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FSU Transportation</string>
+		<key>imageName</key>
+		<string>fsuTransportationBanner</string>
+		<key>textBody</key>
+		<string>Get from point A to point B with FSU Transportation &amp; Parking services. Find student parking lots and the closest bus route with their interactive maps. It&apos;s also the place to go to keep your parking permit up to date (or pay a citation in case you forgot).
+
+https://transportation.fsu.edu/</string>
+	</dict>
+</array>
+</plist>

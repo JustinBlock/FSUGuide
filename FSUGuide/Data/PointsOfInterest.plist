@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>locName</key>
+		<string>FSU Stadium/Visitor Center</string>
+		<key>latitude</key>
+		<real>30.438862</real>
+		<key>longitude</key>
+		<real>-84.302457</real>
+		<key>address</key>
+		<string>288 Champions Way, Tallahassee, FL 32306</string>
+	</dict>
+	<dict>
+		<key>locName</key>
+		<string>FSU Gym</string>
+		<key>latitude</key>
+		<real>30.440603</real>
+		<key>longitude</key>
+		<real>-84.300724</real>
+		<key>address</key>
+		<string>118 Varsity Way, Tallahassee, FL 32306</string>
+	</dict>
+	<dict>
+		<key>locName</key>
+		<string>FSU Strozier Library</string>
+		<key>latitude</key>
+		<real>30.443144</real>
+		<key>longitude</key>
+		<real>-84.29500299999999</real>
+		<key>address</key>
+		<string>116 Honors Way, Tallahassee, FL 32306</string>
+	</dict>
+	<dict>
+		<key>locName</key>
+		<string>FSU Chick Fil A</string>
+		<key>latitude</key>
+		<real>30.441939</real>
+		<key>longitude</key>
+		<real>-84.293558</real>
+		<key>address</key>
+		<string>127 Honors Way, Tallahassee, FL 32306</string>
+	</dict>
+	<dict>
+		<key>locName</key>
+		<string>FSU UPS Store</string>
+		<key>latitude</key>
+		<real>30.444522</real>
+		<key>longitude</key>
+		<real>-84.297106</real>
+		<key>address</key>
+		<string>75 N Woodward Ave, Tallahassee, FL 32313</string>
+	</dict>
+	<dict>
+		<key>locName</key>
+		<string>Westcott Fountain</string>
+		<key>latitude</key>
+		<real>30.440734</real>
+		<key>longitude</key>
+		<real>-84.29085000000001</real>
+		<key>address</key>
+		<string>198 S Copeland St, Tallahassee, FL 32304</string>
+	</dict>
+	<dict>
+		<key>locName</key>
+		<string>FSU Dirac Science Library</string>
+		<key>latitude</key>
+		<real>30.445067</real>
+		<key>longitude</key>
+		<real>-84.299871</real>
+		<key>address</key>
+		<string>110 N Woodward Ave, Tallahassee, FL 32301</string>
+	</dict>
+	<dict>
+		<key>locName</key>
+		<string>FSU Bookstore</string>
+		<key>latitude</key>
+		<real>30.44441</real>
+		<key>longitude</key>
+		<real>-84.298568</real>
+		<key>address</key>
+		<string>104 N Woodward Ave, Tallahassee, FL 32304</string>
+	</dict>
+</array>
+</plist>
