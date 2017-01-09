@@ -4,6 +4,13 @@ FSUGuide is an un-official iOS app created for students new to Florida State Uni
 
 Not affiliated with FSU.
 
+## Preview
+![Home Page](https://github.com/JustinBlock/FSUGuide/raw/master/Pictures/AppPreview/home.png)
+![Explore FSU Page](https://github.com/JustinBlock/FSUGuide/raw/master/Pictures/AppPreview/explore-fsu.png)
+![Tips Page](https://github.com/JustinBlock/FSUGuide/raw/master/Pictures/AppPreview/tips.png)
+![Profile Page](https://github.com/JustinBlock/FSUGuide/raw/master/Pictures/AppPreview/profile.png)
+
+
 ## Getting Started
 This app requires a Parse backend in order to work. In AppDelegate.m find
 
